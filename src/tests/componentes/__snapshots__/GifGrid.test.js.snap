@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`pruebas del componente GifGrid.js debe de mostrar items cuando se cargan imagenes 1`] = `
+<Fragment>
+  <h3
+    className=" animate__animated animate__fadeIn"
+  >
+    goku
+  </h3>
+  <div
+    className="card-grid"
+  >
+    <GifGridItem
+      id="oxbNORcXx76F2"
+      key="oxbNORcXx76F2"
+      title="opm GIF"
+      url="https://media0.giphy.com/media/oxbNORcXx76F2/giphy.gif?cid=ed0298b533ss8ce6vzekx98hbb4mlh4k8pvhahiumjlgdlje&rid=giphy.gif"
+    />
+  </div>
+</Fragment>
+`;
+
+exports[`pruebas del componente GifGrid.js debe mostrarse correctamente 1`] = `
+<Fragment>
+  <h3
+    className=" animate__animated animate__fadeIn"
+  >
+    goku
+  </h3>
+  <p
+    className="animate__animated animate__flash"
+  >
+     Cargando
+  </p>
+  <div
+    className="card-grid"
+  />
+</Fragment>
+`;

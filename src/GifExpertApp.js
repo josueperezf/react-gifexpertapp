@@ -2,8 +2,8 @@ import { Fragment, useState } from "react";
 import { AgregarCategoria } from "./componentes/AgregarCategoria";
 import GifGrid from "./componentes/GifGrid";
 import 'animate.css'
-const GifExpertApp = ()=>{
-    const [categorias, setcategorias] = useState (['One Punch']);
+const GifExpertApp = ({defaultCategoria = []})=>{
+    const [categorias, setcategorias] = useState (defaultCategoria);
 
     return (
         <Fragment>

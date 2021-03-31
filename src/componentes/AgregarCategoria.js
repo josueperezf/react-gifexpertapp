@@ -12,6 +12,7 @@ export const AgregarCategoria = ({setcategorias}) => {
     const handleSubmit = (e)=>{
         e.preventDefault();
         // const valor = e.target.elements[0].value;
+        // console.log('llamo al metodo handleSubmit');
         if(inputValue.trim().length > 0) {
             setcategorias((categorias)=>[inputValue, ...categorias]);
             setinputValue('');
